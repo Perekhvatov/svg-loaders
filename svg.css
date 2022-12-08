@@ -1,0 +1,36 @@
+*,
+html {
+  margin: 0;
+  padding: 0
+}
+:root {
+--baseColor: #e74c3c;
+--fontColor: #fff;
+}
+body {
+  background: var(--baseColor);
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  color: var(--fontColor);
+  margin: 0 0 100px;
+  font-size: 34px;
+  font-weight: 100;
+  text-transform: uppercase;
+  background-color: darken(var(--baseColor, 5));
+  padding: 20px 0;
+}
+b {
+    font-weight: 700;
+  }
+
